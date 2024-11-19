@@ -14,10 +14,17 @@ h1, h2 {
 
 /* 网站头部样式 */
 .header {
-    background-color: #21DFF5;
-    color: #fff;
-    padding: 1rem;
+    color: #31698f;
+    padding: 2.5rem;
     text-align: center;
+    background-image: url('image/background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .navbar a {
@@ -37,8 +44,8 @@ h1, h2 {
     background-color: #fff;
     margin: 1rem auto;
     max-width: 800px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 1px;
+    box-shadow: 0 4px 6px #444;
 }
 
 ul {
@@ -47,7 +54,7 @@ ul {
 }
 
     ul li {
-        background: #007BFF;
+        background: #d4c0c0;
         color: #fff;
         margin: 0.5rem 0;
         padding: 0.5rem;
