@@ -15,12 +15,12 @@ h1, h2 {
 /* 网站头部样式 */
 .header {
     color: #31698f;
-    padding: 2.5rem;
+    padding: 3rem;
     text-align: center;
     background-image: url('background.jpg');
     background-size: cover;
     background-position: center;
-    height: 200px;
+    height: 210px;
     display: flex;
     flex-direction: column;
     justify-content: center;
